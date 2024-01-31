@@ -1,0 +1,4 @@
+2024-01-11 18:00:00,605 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-01-11 18:00:00,605 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-01-11 18:00:01,213 DEBUG [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:51] - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.101.1:9998/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-11 18:00:01,213 DEBUG [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:51] - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='testHandler', registryValue='http://192.168.101.1:9998/'}, registryResult:ReturnT [code=200, msg=null, content=null]

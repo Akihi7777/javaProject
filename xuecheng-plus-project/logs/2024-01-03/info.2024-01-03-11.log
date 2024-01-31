@@ -1,0 +1,17 @@
+2024-01-03 13:39:29,321 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-03 13:39:29,321 WARN [Thread-20][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-03 13:39:29,321 WARN [Thread-20][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-03 13:39:29,321 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-03 13:39:29,295 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-03 13:39:29,295 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-03 13:39:29,295 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-03 13:39:29,295 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-03 13:39:29,322 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-03 13:39:29,322 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-03 13:39:29,322 WARN [Thread-20][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-03 13:39:29,322 WARN [Thread-20][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-03 13:39:29,323 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-03 13:39:29,323 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-03 13:39:29,323 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-03 13:39:29,323 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-03 13:39:29,371 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient

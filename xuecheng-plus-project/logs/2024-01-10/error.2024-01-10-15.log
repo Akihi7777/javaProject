@@ -1,0 +1,5 @@
+2024-01-10 15:36:01,119 ERROR [http-nio-63050-exec-1][MediaFileServiceImpl.java:131] - 获取minio文件失败
+2024-01-10 15:36:52,820 ERROR [http-nio-63050-exec-1][MediaFileServiceImpl.java:131] - 获取minio文件失败
+2024-01-10 15:37:02,823 ERROR [http-nio-63050-exec-9][MediaFileServiceImpl.java:131] - 获取minio文件失败
+2024-01-10 15:43:49,635 ERROR [http-nio-63050-exec-3][MediaFileServiceImpl.java:131] - 获取minio文件失败
+2024-01-10 15:50:58,186 ERROR [http-nio-63050-exec-6][MediaFileServiceImpl.java:200] - 合并文件失败，bucket:video,fileMD5:9babf7a8379d6c0e79bf9456ffbc4a96

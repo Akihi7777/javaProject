@@ -1,0 +1,181 @@
+2024-01-25 02:00:00,588 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63050, ip='169.254.27.198', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2024-01-25 02:00:00,588 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63050, ip='169.254.27.198', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2024-01-25 02:00:00,607 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev402&port=63050&clusterName=DEFAULT&ip=169.254.27.198, body: {}
+2024-01-25 02:00:00,607 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev402&port=63050&clusterName=DEFAULT&ip=169.254.27.198, body: {}
+2024-01-25 02:00:00,560 ERROR [pool-1398-thread-1][_JULLoggerFactory.java:55] - DefaultObjectWrapper.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2024-01-25 02:00:00,560 ERROR [pool-1398-thread-1][_JULLoggerFactory.java:55] - Configuration.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2024-01-25 02:00:00,569 DEBUG [pool-1398-thread-1][Logger.java:49] - Creating a new SqlSession
+2024-01-25 02:00:00,569 DEBUG [pool-1398-thread-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17069c3e] was not registered for synchronization because synchronization is not active
+2024-01-25 02:00:00,569 DEBUG [pool-1398-thread-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-25 02:00:00,569 DEBUG [pool-1398-thread-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@744118919 wrapping com.mysql.cj.jdbc.ConnectionImpl@1571d96d] will not be managed by Spring
+2024-01-25 02:00:00,569 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2024-01-25 02:00:00,569 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2024-01-25 02:00:00,570 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-01-25 02:00:00,570 DEBUG [pool-1398-thread-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17069c3e]
+2024-01-25 02:00:00,570 DEBUG [pool-1398-thread-1][Logger.java:49] - Creating a new SqlSession
+2024-01-25 02:00:00,570 DEBUG [pool-1398-thread-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546df2ae] was not registered for synchronization because synchronization is not active
+2024-01-25 02:00:00,570 DEBUG [pool-1398-thread-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-25 02:00:00,570 DEBUG [pool-1398-thread-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@1999201137 wrapping com.mysql.cj.jdbc.ConnectionImpl@1571d96d] will not be managed by Spring
+2024-01-25 02:00:00,570 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2024-01-25 02:00:00,570 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2024-01-25 02:00:00,571 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-01-25 02:00:00,571 DEBUG [pool-1398-thread-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@546df2ae]
+2024-01-25 02:00:00,571 DEBUG [pool-1398-thread-1][Logger.java:49] - Creating a new SqlSession
+2024-01-25 02:00:00,571 DEBUG [pool-1398-thread-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@742acc3f] was not registered for synchronization because synchronization is not active
+2024-01-25 02:00:00,571 DEBUG [pool-1398-thread-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-25 02:00:00,571 DEBUG [pool-1398-thread-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@1332328598 wrapping com.mysql.cj.jdbc.ConnectionImpl@1571d96d] will not be managed by Spring
+2024-01-25 02:00:00,571 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2024-01-25 02:00:00,571 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-6-1(String)
+2024-01-25 02:00:00,571 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@742acc3f]
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][Logger.java:49] - Creating a new SqlSession
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36703df5] was not registered for synchronization because synchronization is not active
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@337204272 wrapping com.mysql.cj.jdbc.ConnectionImpl@1571d96d] will not be managed by Spring
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-6(String)
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36703df5]
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][Logger.java:49] - Creating a new SqlSession
+2024-01-25 02:00:00,572 DEBUG [pool-1398-thread-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e5e317a] was not registered for synchronization because synchronization is not active
+2024-01-25 02:00:00,573 DEBUG [pool-1398-thread-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-25 02:00:00,573 DEBUG [pool-1398-thread-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@1777737937 wrapping com.mysql.cj.jdbc.ConnectionImpl@1571d96d] will not be managed by Spring
+2024-01-25 02:00:00,573 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: select one.id one_id, one.pname one_pname, one.parentid one_parentid, one.grade one_grade, one.media_type one_mediaType, one.start_time one_stratTime, one.end_time one_endTime, one.orderby one_orderby, one.course_id one_courseId, one.course_pub_id one_coursePubId, two.id two_id, two.pname two_pname, two.parentid two_parentid, two.grade two_grade, two.media_type two_mediaType, two.start_time two_stratTime, two.end_time two_endTime, two.orderby two_orderby, two.course_id two_courseId, two.course_pub_id two_coursePubId, m1.media_fileName mediaFilename, m1.id teachplanMeidaId, m1.media_id mediaId from teachplan one LEFT JOIN teachplan two on one.id = two.parentid LEFT JOIN teachplan_media m1 on m1.teachplan_id = two.id where one.parentid = 0 and one.course_id=? order by one.orderby, two.orderby
+2024-01-25 02:00:00,573 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2024-01-25 02:00:00,574 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - <==      Total: 4
+2024-01-25 02:00:00,574 DEBUG [pool-1398-thread-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e5e317a]
+2024-01-25 02:00:00,574 DEBUG [pool-1398-thread-1][Logger.java:49] - Creating a new SqlSession
+2024-01-25 02:00:00,574 DEBUG [pool-1398-thread-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@169ee34f] was not registered for synchronization because synchronization is not active
+2024-01-25 02:00:00,574 DEBUG [pool-1398-thread-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-25 02:00:00,574 DEBUG [pool-1398-thread-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@962909447 wrapping com.mysql.cj.jdbc.ConnectionImpl@1571d96d] will not be managed by Spring
+2024-01-25 02:00:00,574 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,course_id,teacher_name,position,introduction,photograph,create_date FROM course_teacher WHERE (course_id = ?)
+2024-01-25 02:00:00,574 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - ==> Parameters: 22(Long)
+2024-01-25 02:00:00,575 DEBUG [pool-1398-thread-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-01-25 02:00:00,575 DEBUG [pool-1398-thread-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@169ee34f]
+2024-01-25 02:00:00,575 ERROR [pool-1398-thread-1][_JULLoggerFactory.java:60] - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> secondNode.teachplanMedia  [in template "course_template.ftl" at line 183, column 156]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${secondNode.teachplanMedia.teachplan...  [in template "course_template.ftl" at line 183, column 154]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDescriptionBuilder(UnexpectedTypeException.java:85)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:48)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DefaultToExpression._eval(DefaultToExpression.java:96)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.springframework.ui.freemarker.FreeMarkerTemplateUtils.processTemplateIntoString(FreeMarkerTemplateUtils.java:50)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl.generateCourseHtml(CoursePublishServiceImpl.java:194)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$FastClassBySpringCGLIB$$544e091.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$EnhancerBySpringCGLIB$$9d14f03f.generateCourseHtml(<generated>)
+	at com.xuecheng.content.service.jobhandler.CoursePublishTask.generateCourseHtml(CoursePublishTask.java:70)
+	at com.xuecheng.content.service.jobhandler.CoursePublishTask.execute(CoursePublishTask.java:51)
+	at com.xuecheng.messagesdk.service.MessageProcessAbstract.lambda$null$0(MessageProcessAbstract.java:67)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-01-25 02:00:00,575 DEBUG [pool-1398-thread-1][CoursePublishServiceImpl.java:202] - 生成静态页面出错，课程id：22
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> secondNode.teachplanMedia  [in template "course_template.ftl" at line 183, column 156]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${secondNode.teachplanMedia.teachplan...  [in template "course_template.ftl" at line 183, column 154]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.UnexpectedTypeException.newDescriptionBuilder(UnexpectedTypeException.java:85)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:48)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49)
+	at freemarker.core.Dot._eval(Dot.java:48)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DefaultToExpression._eval(DefaultToExpression.java:96)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.springframework.ui.freemarker.FreeMarkerTemplateUtils.processTemplateIntoString(FreeMarkerTemplateUtils.java:50)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl.generateCourseHtml(CoursePublishServiceImpl.java:194)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$FastClassBySpringCGLIB$$544e091.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$EnhancerBySpringCGLIB$$9d14f03f.generateCourseHtml(<generated>)
+	at com.xuecheng.content.service.jobhandler.CoursePublishTask.generateCourseHtml(CoursePublishTask.java:70)
+	at com.xuecheng.content.service.jobhandler.CoursePublishTask.execute(CoursePublishTask.java:51)
+	at com.xuecheng.messagesdk.service.MessageProcessAbstract.lambda$null$0(MessageProcessAbstract.java:67)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-01-25 02:00:00,576 DEBUG [pool-1398-thread-1][MessageProcessAbstract.java:80] - 任务出现异常:生成的静态页面为空,任务:MqMessage(id=7, messageType=course_publish, businessKey1=22, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=0, stageState2=0, stageState3=0, stageState4=0)
+2024-01-25 02:00:00,576 DEBUG [pool-1398-thread-1][MessageProcessAbstract.java:85] - 结束任务:MqMessage(id=7, messageType=course_publish, businessKey1=22, businessKey2=null, businessKey3=null, executeNum=0, state=0, returnfailureDate=null, returnsuccessDate=null, returnfailureMsg=null, executeDate=null, stageState1=0, stageState2=0, stageState3=0, stageState4=0)
+2024-01-25 02:00:00,576 DEBUG [xxl-job, JobThread-5-1706104889858][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:115610
+2024-01-25 02:00:00,949 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-01-25 02:00:00,949 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-01-25 02:00:01,512 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-01-25 02:00:01,512 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-01-25 02:00:01,934 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-01-25 02:00:01,934 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]

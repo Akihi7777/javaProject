@@ -1,0 +1,62 @@
+###查询课程
+POST {{gateway_host}}/content/course/list?pageNo=1&pageSize=2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDYxOTE1ODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6Ijg1MDczZGY5LTEzM2MtNDFkOS1iMDIzLWQwYWJlM2Q5ZGU0MyIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.SKEf_4AZqkGvKzu1he1lW1QLtpvlcuF0PTTqt0hqw34
+Content-Type: application/json
+
+{
+  "auditStatus": "",
+  "courseName": "",
+  "publishStatus": ""
+}
+
+
+###
+GET {{gateway_host}}/content/course-category/tree-nodes
+Content-Type: application/json
+
+
+
+###新增课程
+ POST {{gateway_host}}/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 90,
+  "originalPrice":100,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "9999999",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "zs",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+
+###课程按id查询
+GET {{gateway_host}}/content/course/40
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ7XCJjb21wYW55SWRcIjpcIjEyMzIxNDE0MjVcIixcImNyZWF0ZVRpbWVcIjpcIjIwMjItMDktMjhUMDg6MzI6MDNcIixcImlkXCI6XCI1MlwiLFwibmFtZVwiOlwiTeiAgeW4iFwiLFwic2V4XCI6XCIxXCIsXCJzdGF0dXNcIjpcIlwiLFwidXNlcm5hbWVcIjpcInQxXCIsXCJ1dHlwZVwiOlwiMTAxMDAyXCJ9Iiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcwNjU0MTE2NCwiYXV0aG9yaXRpZXMiOlsidGVzdCJdLCJqdGkiOiJlNjBlMWM1ZS0wZWRhLTRlNTYtYWFlNy1lNzhmMDI1NWM5NDQiLCJjbGllbnRfaWQiOiJYY1dlYkFwcCJ9.WUnJOfoIbaa4L1EIri5uh6M8QDWNDCX7lr5Xn3LZuCE
+
+###按照课程id查找课程计划
+GET {{content_host}}/content/teachplan/117/tree-nodes
+
+### 删除课程计划
+DELETE {{content_host}}/content/teachplan/264
+
+###查询媒资
+POST {{gateway_host}}/media/files?pageNo=1&pageSize=2
+Content-Type: application/json
+
+{
+  "auditStatus": "",
+  "fileType": "",
+  "fileName": ""
+}

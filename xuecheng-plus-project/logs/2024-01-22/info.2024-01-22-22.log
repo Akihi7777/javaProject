@@ -1,0 +1,18 @@
+2024-01-22 23:00:00,120 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-22 23:00:00,120 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-22 23:00:00,011 DEBUG [xxl-job, JobThread-5-1705932299440][Logger.java:49] - Creating a new SqlSession
+2024-01-22 23:00:00,120 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-22 23:00:00,011 DEBUG [xxl-job, JobThread-5-1705932299440][Logger.java:49] - Creating a new SqlSession
+2024-01-22 23:00:00,073 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-22 23:00:00,120 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-22 23:00:00,073 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-22 23:00:00,235 DEBUG [xxl-job, JobThread-5-1705932299440][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b57d428] was not registered for synchronization because synchronization is not active
+2024-01-22 23:00:00,235 DEBUG [xxl-job, JobThread-5-1705932299440][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b57d428] was not registered for synchronization because synchronization is not active
+2024-01-22 23:00:00,235 DEBUG [xxl-job, JobThread-5-1705932299440][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-22 23:00:00,235 DEBUG [xxl-job, JobThread-5-1705932299440][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-22 23:00:00,237 DEBUG [xxl-job, JobThread-5-1705932299440][Logger.java:49] - JDBC Connection [HikariProxyConnection@1649960083 wrapping com.mysql.cj.jdbc.ConnectionImpl@28f88fad] will not be managed by Spring
+2024-01-22 23:00:00,237 DEBUG [xxl-job, JobThread-5-1705932299440][Logger.java:49] - JDBC Connection [HikariProxyConnection@1649960083 wrapping com.mysql.cj.jdbc.ConnectionImpl@28f88fad] will not be managed by Spring
+2024-01-22 23:00:00,237 DEBUG [xxl-job, JobThread-5-1705932299440][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' and t.message_type=? limit ?
+2024-01-22 23:00:00,238 DEBUG [xxl-job, JobThread-5-1705932299440][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), course_publish(String), 30(Integer)
+2024-01-22 23:00:00,237 DEBUG [xxl-job, JobThread-5-1705932299440][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' and t.message_type=? limit ?
+2024-01-22 23:00:00,238 DEBUG [xxl-job, JobThread-5-1705932299440][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), course_publish(String), 30(Integer)

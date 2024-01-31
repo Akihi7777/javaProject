@@ -1,0 +1,60 @@
+2024-01-31 20:00:01,437 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2024-01-31 20:00:01,437 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2024-01-31 20:00:01,437 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for search obtained from Discovery client: []
+2024-01-31 20:00:01,437 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for search obtained from Discovery client: []
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for search obtained from Discovery client: []
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for search obtained from Discovery client: []
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for checkcode obtained from Discovery client: [169.254.27.198:63075]
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for checkcode obtained from Discovery client: [169.254.27.198:63075]
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [search]: clearing server list (SET op)
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for checkcode obtained from Discovery client: [169.254.27.198:63075]
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [search]: clearing server list (SET op)
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for checkcode obtained from Discovery client: [169.254.27.198:63075]
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [checkcode]: clearing server list (SET op)
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [checkcode]: clearing server list (SET op)
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [checkcode]:  addServer [169.254.27.198:63075]
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[169.254.27.198:63075]}
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [checkcode]:  addServer [169.254.27.198:63075]
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2024-01-31 20:00:01,445 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[169.254.27.198:63075]}
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [checkcode_unknown]: clearing server list (SET op)
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for auth-service obtained from Discovery client: [169.254.27.198:63070]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for auth-service obtained from Discovery client: [169.254.27.198:63070]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [checkcode_unknown]: clearing server list (SET op)
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for auth-service obtained from Discovery client: [169.254.27.198:63070]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [checkcode_unknown]:  addServer [169.254.27.198:63075]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for auth-service obtained from Discovery client: [169.254.27.198:63070]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [checkcode_unknown]:  addServer [169.254.27.198:63075]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [auth-service]: clearing server list (SET op)
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [auth-service]: clearing server list (SET op)
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][HostReactor.java:306] - failover-mode: false
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [auth-service]:  addServer [169.254.27.198:63070]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [auth-service]:  addServer [169.254.27.198:63070]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: [169.254.27.198:63040]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for content-api obtained from Discovery client: [169.254.27.198:63040]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: [169.254.27.198:63040]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for content-api obtained from Discovery client: [169.254.27.198:63040]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[169.254.27.198:63070]}
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[169.254.27.198:63070]}
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [content-api]: clearing server list (SET op)
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [auth-service_unknown]: clearing server list (SET op)
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [auth-service_unknown]: clearing server list (SET op)
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [auth-service_unknown]:  addServer [169.254.27.198:63070]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [auth-service_unknown]:  addServer [169.254.27.198:63070]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [content-api]:  addServer [169.254.27.198:63040]
+2024-01-31 20:00:01,446 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [content-api]:  addServer [169.254.27.198:63040]
+2024-01-31 20:00:01,447 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[169.254.27.198:63040]}
+2024-01-31 20:00:01,447 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[169.254.27.198:63040]}
+2024-01-31 20:00:01,447 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [content-api_unknown]: clearing server list (SET op)
+2024-01-31 20:00:01,447 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [content-api_unknown]: clearing server list (SET op)
+2024-01-31 20:00:01,447 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [content-api_unknown]:  addServer [169.254.27.198:63040]
+2024-01-31 20:00:01,447 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [content-api_unknown]:  addServer [169.254.27.198:63040]
+2024-01-31 20:00:01,940 DEBUG [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:51] - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='coursepublish-job', registryValue='http://192.168.101.1:8999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2024-01-31 20:00:01,940 DEBUG [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:51] - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='coursepublish-job', registryValue='http://192.168.101.1:8999/'}, registryResult:ReturnT [code=200, msg=null, content=null]

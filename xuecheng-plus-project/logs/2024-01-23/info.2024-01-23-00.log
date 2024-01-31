@@ -1,0 +1,24 @@
+2024-01-23 01:00:02,696 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-23 01:00:02,696 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-01-23 01:00:02,702 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-01-23 01:00:02,702 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-01-23 01:00:02,789 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2024-01-23 01:00:02,789 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for media-api obtained from Discovery client: [169.254.27.198:63050]
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for media-api obtained from Discovery client: [169.254.27.198:63050]
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for media-api obtained from Discovery client: [169.254.27.198:63050]
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for media-api obtained from Discovery client: [169.254.27.198:63050]
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api]: clearing server list (SET op)
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api]: clearing server list (SET op)
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [media-api]:  addServer [169.254.27.198:63050]
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [media-api]:  addServer [169.254.27.198:63050]
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[169.254.27.198:63050]}
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[169.254.27.198:63050]}
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api_unknown]: clearing server list (SET op)
+2024-01-23 01:00:02,790 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api_unknown]: clearing server list (SET op)
+2024-01-23 01:00:02,792 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [media-api_unknown]:  addServer [169.254.27.198:63050]
+2024-01-23 01:00:02,792 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [media-api_unknown]:  addServer [169.254.27.198:63050]
+2024-01-23 01:00:02,868 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-23 01:00:02,868 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-23 01:00:02,868 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-23 01:00:02,868 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00

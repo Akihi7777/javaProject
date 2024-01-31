@@ -1,0 +1,4 @@
+2023-12-18 10:00:13,039 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@598e7f62: (connection has passed maxLifetime)
+2023-12-18 10:00:13,039 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@598e7f62: (connection has passed maxLifetime)
+2023-12-18 10:00:13,073 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cc2e9ae
+2023-12-18 10:00:13,073 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cc2e9ae

@@ -1,0 +1,30 @@
+
+#微服务配置
+spring:
+  application:
+    name: system-api
+  cloud:
+    nacos:
+      server-addr: 192.168.101.65:8848
+      discovery: #服务注册相关配置
+        namespace: dev402
+        group: xuecheng-plus-project
+      config: #配置文件相关配置
+        namespace: dev402
+        group: xuecheng-plus-project
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs: #依赖于其他微服务
+          - data-id: system-service-${spring.profiles.active}.yaml
+            group: xuecheng-plus-project
+            refresh: true
+        shared-configs: #公共配置
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+  profiles:
+    active: dev
+

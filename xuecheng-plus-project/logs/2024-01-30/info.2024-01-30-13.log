@@ -1,0 +1,20 @@
+2024-01-30 14:00:00,039 DEBUG [xxl-job, JobThread-5-1706534460105][Logger.java:49] - Creating a new SqlSession
+2024-01-30 14:00:00,039 DEBUG [xxl-job, JobThread-5-1706534460105][Logger.java:49] - Creating a new SqlSession
+2024-01-30 14:00:00,044 DEBUG [xxl-job, JobThread-5-1706534460105][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3afdf979] was not registered for synchronization because synchronization is not active
+2024-01-30 14:00:00,044 DEBUG [xxl-job, JobThread-5-1706534460105][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3afdf979] was not registered for synchronization because synchronization is not active
+2024-01-30 14:00:00,044 DEBUG [xxl-job, JobThread-5-1706534460105][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-30 14:00:00,044 DEBUG [xxl-job, JobThread-5-1706534460105][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-01-30 14:00:00,046 DEBUG [xxl-job, JobThread-5-1706534460105][Logger.java:49] - JDBC Connection [HikariProxyConnection@1343659002 wrapping com.mysql.cj.jdbc.ConnectionImpl@6cacbe89] will not be managed by Spring
+2024-01-30 14:00:00,046 DEBUG [xxl-job, JobThread-5-1706534460105][Logger.java:49] - JDBC Connection [HikariProxyConnection@1343659002 wrapping com.mysql.cj.jdbc.ConnectionImpl@6cacbe89] will not be managed by Spring
+2024-01-30 14:00:00,046 DEBUG [xxl-job, JobThread-5-1706534460105][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' and t.message_type=? limit ?
+2024-01-30 14:00:00,046 DEBUG [xxl-job, JobThread-5-1706534460105][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT t.* FROM mq_message t WHERE t.id % ? = ? and t.state='0' and t.message_type=? limit ?
+2024-01-30 14:00:00,046 DEBUG [xxl-job, JobThread-5-1706534460105][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), course_publish(String), 30(Integer)
+2024-01-30 14:00:00,046 DEBUG [xxl-job, JobThread-5-1706534460105][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), course_publish(String), 30(Integer)
+2024-01-30 14:00:00,046 DEBUG [xxl-job, JobThread-5-1706534460105][BaseJdbcLogger.java:137] - <==      Total: 0
+2024-01-30 14:00:00,046 DEBUG [xxl-job, JobThread-5-1706534460105][BaseJdbcLogger.java:137] - <==      Total: 0
+2024-01-30 14:00:00,048 DEBUG [xxl-job, JobThread-5-1706534460105][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3afdf979]
+2024-01-30 14:00:00,048 DEBUG [xxl-job, JobThread-5-1706534460105][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3afdf979]
+2024-01-30 14:00:00,048 DEBUG [xxl-job, JobThread-5-1706534460105][MessageProcessAbstract.java:53] - 取出待处理消息0条
+2024-01-30 14:00:00,048 DEBUG [xxl-job, JobThread-5-1706534460105][MessageProcessAbstract.java:53] - 取出待处理消息0条
+2024-01-30 14:00:00,049 DEBUG [xxl-job, JobThread-5-1706534460105][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:123501
+2024-01-30 14:00:00,049 DEBUG [xxl-job, JobThread-5-1706534460105][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:123501
